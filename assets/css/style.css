@@ -1,0 +1,426 @@
+@font-face {
+  font-family: newyorkregualar;
+  src: url("../fonts/NewYork/NewYork\ PERSONAL\ USE.otf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  font-family: "newyorkregualar, Times, serif, Helvetica, sans-serif";
+  box-sizing: border-box;
+}
+body {
+  background-color: #272422;
+}
+section {
+  margin: 0vh 11.5vw;
+  border-bottom: 1px solid #333337;
+}
+h1 {
+  font-size: 20rem;
+  font-weight: 300;
+  line-height: 18rem;
+}
+h2 {
+  font-size: 10rem;
+  font-weight: 300;
+  color: #fff;
+  line-height: 10rem;
+}
+h3 {
+  font-size: 6rem;
+  color: #fff;
+}
+h4 {
+  font-size: 2.3rem;
+  color: #fff;
+}
+p {
+  color: #999;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+button {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+  background-color: #272422;
+  border-radius: 40px;
+  border: 1px solid #3c3636;
+  padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+  color: #fff;
+  cursor: pointer;
+}
+/* ! ========== HEADER ================*/
+header {
+  padding: 4vh 6vw 4vh 4vw;
+  border: 1px solid #333337;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  position: fixed;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+  width: 120px;
+}
+.navbar {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  gap: 30px;
+  padding: 0px 2vw;
+}
+.navbar li {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.navbar .pagepointer {
+  color: #e8bf96;
+}
+/* ! ============== MAIN ============== */
+
+main {
+  margin: 0vh 0vw;
+}
+/* ----------------- HERO SECTION-----------------*/
+.herosection {
+  background-image: url("../img/19.png");
+  height: 120vh;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+/* .......... ARTICLE LEFT ........... */
+.articleleft {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  position: relative;
+}
+.blondgirl {
+  margin: 25vh 0 0 0;
+}
+.stars {
+  height: 60px;
+  width: 50px;
+}
+.arrow {
+  height: 25px;
+  width: 25px;
+}
+.fashionweek {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+.fashionweek p {
+  font-size: 2.3rem;
+  color: #fff;
+  width: 12vw;
+}
+/* ........... ARTICLE MIDDLE .........*/
+.articlemid {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 1000px;
+}
+.picturemid {
+  width: 16vw;
+}
+/* ............ ARTICLE RIGHT ...........*/
+.articleright {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  gap: 22vh;
+}
+.pictureright {
+  object-fit: cover;
+}
+.articleright p {
+  color: #999;
+  width: 15vw;
+  font-size: 1.8rem;
+}
+.articleright p span {
+  color: #fff;
+  width: 8vw;
+  font-size: 1.8rem;
+}
+.herosection h1 {
+  width: 48vw;
+  font-size: 20rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  line-height: 18rem;
+}
+.herosection h6 {
+  font-size: 4rem;
+  font-weight: 300;
+  width: 20vw;
+}
+.herosection h6 span {
+  color: #e8bf96;
+  font-size: 4rem;
+  font-weight: 300;
+}
+/* ------------- FASHION FOR PASSION SECTION --------- */
+.fashionforpassion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10vh 15vw;
+  gap: 2vh;
+  border-bottom: 1px solid #333337;
+}
+.fashionforpassion p {
+  width: 32vw;
+  margin-bottom: 8vh;
+}
+.fashionforpassion button {
+  margin-bottom: 10vh;
+}
+/* -------------------- SELECTED WORKS SECTION ----------*/
+.sectionheader {
+  display: flex;
+  flex-direction: column;
+}
+.sectionheader h2 {
+  width: 20vw;
+  margin-bottom: 3vh;
+  margin-top: 10vh;
+}
+.divlineflex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3vw;
+  margin-bottom: 5vw;
+}
+.divline {
+  background-color: #fff;
+  width: 15vw;
+  height: 1px;
+  margin-bottom: 3vh;
+}
+.divlineflex p {
+  width: 35vw;
+  margin-right: 6vw;
+}
+/* ............... GALLERY ...........*/
+.workgallery {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+.bigimg {
+  height: 80vh;
+  width: 40vw;
+  object-fit: cover;
+}
+.smallimg {
+  height: 60vh;
+  width: 25vw;
+  object-fit: cover;
+  margin-top: 10vh;
+}
+.gallerydiv {
+  display: flex;
+  justify-content: space-between;
+}
+.gallerydiv p:nth-of-type(odd) {
+  color: #fff;
+  font-size: 1.8rem;
+}
+/* -------------------- SERVICE SECTION ------------------ */
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  margin-top: 10vh;
+}
+.imgleft {
+  height: 45vh;
+  margin-top: 25vh;
+}
+.service ul {
+  list-style-type: none;
+  text-align: center;
+  width: 28vw;
+}
+
+.service p {
+  margin-bottom: 5vh;
+}
+.imgright {
+  height: 40vh;
+  margin-left: 4vw;
+}
+.myblogs .sectionheader {
+  gap: 5vh;
+}
+.myblogs .sectionheader .divlineflex {
+  align-items: start;
+}
+.myblogs .sectionheader .divline {
+  margin-top: 1vh;
+}
+/* ---------------------- BLOG SECTION ------------------*/
+.bloggrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 2vw;
+}
+.bloggrid img {
+  height: 44vh;
+  width: 24vw;
+  object-fit: cover;
+  margin-bottom: 3vh;
+}
+.bloggrid p {
+  margin-bottom: 1.5vh;
+}
+.bloggrid h4 {
+  margin-bottom: 5vh;
+}
+/*----------------------- DIVINE SECTION ----------------*/
+.divine {
+  height: 85vh;
+  background: url("../img/23.jpeg") no-repeat rgba(0, 0, 0, 0.48);
+  background-blend-mode: multiply;
+  background-size: cover;
+  object-fit: fill;
+  position: relative;
+  background-color: #999;
+}
+.divine div {
+  color: white;
+  position: absolute;
+  border-top: 1px solid #999;
+  width: 30vw;
+  right: 0;
+  margin-right: 6vw;
+  bottom: 4vh;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-indent: 3rem;
+  padding-top: 5vh;
+}
+.divine p {
+  color: #fff;
+  text-align: justify;
+}
+/*------------------------- NOMINATED SECTION --------------*/
+.nominated {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+.nominated h2 {
+  width: 60vw;
+  margin-bottom: 3vh;
+}
+.nominatedflex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 29vw;
+  margin-bottom: 5vw;
+}
+.nominatedflex p {
+  width: 23vw;
+  text-align: justify;
+  text-indent: 8rem;
+}
+.contactp {
+  color: #fff;
+}
+/*-----------------------------LETS TALK SECTION--------------*/
+.letstalk {
+  margin-left: 35vw;
+  border: none;
+  margin-bottom: 12vh;
+  margin-top: 10vh;
+}
+.letstalk h2 {
+  margin-bottom: 6vh;
+}
+/* !==========================FOOTER=========================*/
+footer {
+  height: 12vh;
+  padding: 6vh 0vw 6vw 3vw;
+  border: 1px solid #333337;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+ul {
+  list-style-type: none;
+  line-height: 2.8rem;
+}
+.grid2 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+.grid4 {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.grid4 ol {
+  display: flex;
+  gap: 1vw;
+  list-style-type: none;
+  color: #fff;
+}
+.grid4 ol li {
+  font-size: 1.8rem;
+}
+.footerline {
+  height: 0.1vh;
+  width: 5vw;
+  background-color: #999;
+}
+.grid4 span {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.grid5 {
+  display: flex;
+  flex-direction: column;
+}
+.grid5 input {
+  background-color: #272422;
+  font-size: 1rem;
+  border: none;
+  margin-bottom: 0.5vh;
+}
+.grid5 .footerline {
+  background-color: #3c3636;
+  width: 20vw;
+  margin-bottom: 2vw;
+}
+.grid5 button {
+  width: 8vw;
+}
